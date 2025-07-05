@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نموذج BETA Premium</title>
+  <style>
+    body {
+      background-color: #0B1D51;
+      color: #F5F0CD;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.7em;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background-color: #F5F0CD;
+      color: #0B1D51;
+      border: none;
+      padding: 14px 32px;
+      font-size: 1em;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #d3cca6;
+      transform: scale(1.05);
+    }
+    .contact {
+      font-size: 1.1em;
+      margin-top: 30px;
+    }
+    a {
+      color: #F5F0CD;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #ffffff;
+    }
+    form {
+      margin-top: 30px;
+    }
+    input[type="text"], input[type="email"] {
+      padding: 10px;
+      width: 250px;
+      border: none;
+      border-radius: 6px;
+      margin: 10px auto;
+      display: block;
+    }
+    .social {
+      margin-top: 20px;
+    }
+    .social a {
+      margin: 0 10px;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #F5F0CD;
+    }
+  </style>
+</head>
+<body>
+  <h1>نموذج BETA Premium</h1>
+  <p>
+    محتوى تفاعلي يساعدك تتعلم كل أسرار الانستغرام من الربح، التسويق، الفيديو، التفاعل، والجذب. بخطوات بسيطة وبتطبيق مباشر.<br>
+    سعر الاشتراك: <strong>50,000 دينار عراقي</strong> فقط
+  </p>
+  <a class="btn" href="https://wa.me/9647731631555" target="_blank">اشترك الآن عبر واتساب</a>
+
+  <div class="contact">
+    <p>طرق الدفع:</p>
+    <p>زين كاش: <strong>07731631555</strong></p>
+    <p>سوبر كي رافدين: <strong>7112779595</strong></p>
+    <p>بعد الدفع ارسل سكرين شوت على واتساب للحصول على رابط الدخول</p>
+    <div class="social">
+      <a href="https://www.instagram.com/hosni.jameel" target="_blank">انستغرام: hosni.jameel</a>
+    </div>
+  </div>
+
+  <form>
+    <input type="text" placeholder="اسمك">
+    <input type="email" placeholder="ايميلك">
+    <button class="btn" type="submit">أريد الانضمام</button>
+  </form>
+</body>
+</html>
